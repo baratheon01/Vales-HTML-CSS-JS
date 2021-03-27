@@ -1,0 +1,164 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body{
+    background-color: #FFD7B2;
+    font-family: 'Lobster', cursive;
+  }
+
+
+  .contenedor{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+    .contenedor-vc{
+      width: 100%;
+    }
+
+
+h1 {
+    font-size: 4.8rem;
+  }
+  
+  h2 {
+    font-size: 3.4rem;
+  }
+  
+  h3 {
+    font-size: 3.2rem;
+  }
+  
+  h4 {
+    font-size: 1.8rem;
+  }
+  h5{
+    font-size: 1.5rem;
+  }
+  
+ 
+  img {
+    max-width: 100%;
+  }
+  /*Botones*/
+  .btn {
+    background-color: #DB2342; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    width: 100%;
+    font-weight: bold;
+    letter-spacing: 3px;
+  }
+  .btn:hover{
+    cursor: pointer;
+  }
+
+  .btn-after{
+    background-color: #94b996;
+    border: none;
+    color: #572364;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    width: 100%;
+    font-weight: bold;
+    letter-spacing: 3px;
+  }
+
+  .btn-after{
+    cursor: no-drop;
+  }
+  
+
+
+  /*utilidades*/
+  img{
+    max-width: 100%;
+  }
+.centrar-texto {
+    text-align: center;
+  }
+
+  .btn-canjear{
+    width: 100%;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    background-color: #572364;
+    border: none;
+    font-weight: 700;
+  }
+  
+  .no-margin {
+    margin: 0;
+  }
+  /*grid*/
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+}
+
+.grid-2{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto;
+}
+
+@media(min-width: 768px) {
+  .grid{
+    
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+  }
+  .grid-2{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+  }
+}
+
+h2{
+  color: #572364;
+}
+
+.h1-header{
+  color: #572364;
+}
+
+.v-Canjeados{
+  background-color: #E88D82;
+  border-radius: 20px;
+}
+
+.div-img{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card{
+ 
+  margin-top: 2rem;
+  padding: 0.5rem;
+  background-color: #E88D82;
+}
+
+@media(min-width: 768px) {
+  .card{
+    margin-left: 0;
+    width: 80%;
+  }
+}
